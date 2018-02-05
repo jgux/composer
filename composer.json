@@ -1,0 +1,19 @@
+{
+    "name": "guoxing/hello",
+    "description": "This shi my first composer .",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jiangguoxing",
+            "email": "627344071@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Composer\\": "src/"
+        }
+    }
+}
